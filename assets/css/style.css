@@ -183,6 +183,48 @@ input[type="button"] {
 }
 
 @media only screen and (max-width: 640px) {
+/* Nav */
+  #menu .center {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  li {
+    float: none;
+  }
+
+  li a {
+    display: inline-block;
+  }
+
+  #logo {
+    background-color: #4aaaa5;
+  }
+
+  #menu {
+    padding: 0;
+  }
+
+  .menu-item {
+    display: inline;
+    text-align: center;
+    float: none;
+  }
+
+  ul {
+    text-align: center;
+    direction: rtl;
+  }
+
+  .pipe::after {
+    content: none;
+  }
+
+  .mobile-pipe::after {
+    content: "|";
+  }
+
+  /* index */
   .center {
     width: 360px;
     margin: 0 auto;
@@ -216,7 +258,7 @@ input[type="button"] {
     width: 310px;
   }
 
-/* Contact */
+  /* Contact */
   input,
   textarea {
     width: 305px;
