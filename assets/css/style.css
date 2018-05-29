@@ -44,11 +44,18 @@ li {
 
 .menu-item {
   float: right;
-  color: #cccccc;
 }
 
 .menu-item a {
   color: #777777;
+}
+
+.menu-item a:hover {
+  padding-bottom: 4px;
+  border-bottom: #4aaaa5 solid 2px;
+  transition: 0.5s;
+  transition-property: border-bottom;
+  transition-timing-function: ease;
 }
 
 li a {
@@ -183,7 +190,7 @@ input[type="button"] {
 }
 
 @media only screen and (max-width: 640px) {
-/* Nav */
+  /* Nav */
   #menu .center {
     width: 100%;
     margin: 0 auto;
